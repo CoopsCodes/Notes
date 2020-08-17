@@ -1,6 +1,6 @@
 # Javascript
 
-ES6 Arrow functions
+## ES6 Arrow functions
 
 ```
 	<!-- The old way -->
