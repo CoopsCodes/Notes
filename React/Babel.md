@@ -82,7 +82,7 @@ root-folder/
 	│   │   └── app.js
 	│   └── index.html
 	├── src
-	│	└── app.js
+	│   └── app.js
 	├── package.json
 	└── yarn.lock
 ```

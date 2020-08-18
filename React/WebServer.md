@@ -22,13 +22,17 @@ Set that html file up with default
 Install **Live-Server** with yarn
 
 ```
+	<!-- yarn -->
 	$ yarn global add live-server
+
+	<!-- NPM -->
+	$ npm install -g live-server
 ```
 
 Or Install **Live-Server** with NPM
 
 ```
-	$ npm install -g live-server
+
 ```
 
 Check that **Live-Server** has installed properly by running a version check
