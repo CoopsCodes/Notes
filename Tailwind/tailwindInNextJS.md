@@ -128,3 +128,9 @@ And delete the `Home.module.css` file completely.
 And for the setup of Tailwind in a Next.JS app thats completed!
 
 If you `yarn dev` and run the server you'll notice your app defaults to a styleless app and this is where I say **HERE COMES THE _FUN_ PART**
+
+But wait there's more... but I am saving the actual Tailwind magic for another article.
+
+This was built with the guidance of [James Q Quick](@jamesqquick) and his soothing southern accent.
+
+As well as the guidance of the [Tailwind docs](https://tailwindcss.com/)
