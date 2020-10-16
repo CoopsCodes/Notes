@@ -122,3 +122,9 @@ first you want to change into the branch you want to merge it into, this could b
 ```
 	git merge <name>
 ```
+
+👇 to delete a branch once you're done with it
+
+```
+	git branch -d <branch>
+```
