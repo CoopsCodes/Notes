@@ -64,6 +64,8 @@ class Student extends Person = {
 		return description;
 	}
 }
+const me = new Person("Cooper Viktor", 35, "Stuff");
+console.log(me.greeting());
 ```
 
 if a method in a subclass is given the same name as a parent class, it overrides it. unless the subclass method invokes the parent via super and modifies it in some way
