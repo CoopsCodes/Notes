@@ -65,3 +65,25 @@ This returns the view in the posts.index location.
 If adding any JS dependencies (i.e tailwind) run the `npm install` command as this will generate the app by bundling in all the dependencies that are required in the app.
 
 That will create the `package.json` file and create the `"dev": "npm run development"` script that we can then use to kick off the local dev server.
+
+## Routing
+
+Lets start with some Routes.
+
+### Links
+
+In One of our `VIEWS` we have a link, as demonstrate below.
+
+```html
+// Location: views/layouts/app.blade.php
+<li>
+	<a href="{{ route('register') }}" class="p-3">Register</a>
+</li>
+```
+
+Using Laravel's `route('')` helper to name and point to the destination in the `routes/web.php` directory, as we can see below the link points to the `->name('register')`.
+
+```
+// Location: routes/web.php
+Route::get('/register', [RegisterController::class, 'index'])->name('register');
+```
