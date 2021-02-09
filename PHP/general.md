@@ -48,3 +48,26 @@ Opening and closing PHP commands are wrapped in `<?php ?>` and statements must a
 	echo "My name is ${name}'s and I am ${language}ing";
 ?>
 ```
+
+```php
+<?php
+	# We can also concatenate variables with the same name together with a .= operator.
+	$foo = "foo";
+	$foo .= "bar";
+
+	echo $foo; //=> "foobar"
+
+	# Say we want to reassign a variable, this can be done with =& operator.
+	# This will point the new variable to the same place in memory, rather than creating two memory locations.
+	$variable_one = "Kentucky Fried Chicken";
+
+	# Variable two is declared, but rather than creating a new variable
+	# it renames and points to the variable one's location.
+	$variable_two =& $variable_one;
+
+	# But with some concatenation magic
+	$variable_two .= " and a Pizza Hut";
+
+	echo $variable_two; //=> Kentucky Fried Chicken and a Pizza Hut
+?>
+```
