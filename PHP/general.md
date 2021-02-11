@@ -71,3 +71,24 @@ Opening and closing PHP commands are wrapped in `<?php ?>` and statements must a
 	echo $variable_two; //=> Kentucky Fried Chicken and a Pizza Hut
 ?>
 ```
+
+# Numbers
+
+```php
+<?php
+	/*
+		PHP has two number data types. The integer data type includes positive and negative whole numbers (such as 3, 4599, -98, and 0). The floating point data type is used to represent decimal numbers (such as 4.98273, 2.1, -9.7, -182736.8).
+	*/
+
+	# all the regular multipliers exist + - * /
+
+	# Exponential operator is a double **
+	echo 4 ** 2; //=> Prints: 16
+
+	# on floats and negative numbers
+	echo 2.89 ** 3.2;  //=> Prints: 29.845104015297
+	echo 10 ** -1; //=> Prints: 0.1
+
+
+?>
+```
